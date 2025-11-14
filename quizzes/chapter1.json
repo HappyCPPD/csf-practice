@@ -1,0 +1,97 @@
+{
+  "title": "Chapter 1",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "Which of the following is considered a domain where Internet-based data can originate?",
+      "options": [
+        "LinkedIn",
+        "Cisco",
+        "Juniper",
+        "Palo Alto"
+      ],
+      "answer": "LinkedIn"
+    },
+    {
+      "type": "mc",
+      "question": "The abbreviation IoE stands for which concept?",
+      "options": [
+        "Internet of Everyday",
+        "Internet of Everything",
+        "Insight into Everything",
+        "Intelligence on Everything"
+      ],
+      "answer": "Internet of Everything"
+    },
+    {
+      "type": "mc",
+      "question": "What type of attack overwhelms a device by draining memory or pushing the CPU to its limits?",
+      "options": [
+        "Exhaustion attack",
+        "DDoS attack",
+        "APT attack",
+        "Algorithm attack"
+      ],
+      "answer": "Exhaustion attack"
+    },
+    {
+      "type": "mc",
+      "question": "What is the definition of a system vulnerability?",
+      "options": [
+        "A threat created intentionally by an attacker",
+        "A technique used to carry out an attack",
+        "A device or system selected as a target",
+        "A flaw that can be exploited by attackers"
+      ],
+      "answer": "A flaw that can be exploited by attackers"
+    },
+    {
+      "type": "mc",
+      "question": "Which attack method relies on numerous compromised machines to overwhelm a single target with traffic?",
+      "options": [
+        "Spoofing attack",
+        "Ping sweep",
+        "DDoS attack",
+        "DoS attack"
+      ],
+      "answer": "DDoS attack"
+    },
+    {
+      "type": "sa",
+      "question": "Name one kind of sensitive information that hackers often attempt to steal from organizations.",
+      "answer": "Examples: financial records, customer data, medical records, employee information"
+    },
+    {
+      "type": "mc",
+      "question": "Which two actions are effective in helping defend against cybercriminal activity?",
+      "options": [
+        "Switching operating systems",
+        "Hiring hackers",
+        "Sharing cybersecurity intelligence",
+        "Creating early detection systems"
+      ],
+      "answer": "Sharing cybersecurity intelligence, Creating early detection systems"
+    },
+    {
+      "type": "sa",
+      "question": "What term is used for hackers who conduct attacks to support a political or social cause?",
+      "answer": "Hacktivists"
+    },
+    {
+      "type": "sa",
+      "question": "What term describes an inexperienced or beginner hacker?",
+      "answer": "Script kiddie"
+    },
+    {
+      "type": "mc",
+      "question": "Which cybersecurity workforce category focuses on analyzing incoming threat data to determine its intelligence value?",
+      "options": [
+        "Oversight and Development",
+        "Securely Provision",
+        "Protect and Defend",
+        "Analyze"
+      ],
+      "answer": "Analyze"
+    }
+  ]
+}
