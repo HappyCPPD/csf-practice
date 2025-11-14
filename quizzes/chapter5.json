@@ -1,0 +1,225 @@
+{
+  "title": "Chapter 5",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "What is the primary function of a hashing algorithm?",
+      "options": [
+        "To encrypt data so it cannot be read",
+        "To produce a fixed-length representation of binary data to ensure integrity",
+        "To reverse-engineer a password from a database",
+        "To exchange secret keys between a sender and receiver"
+      ],
+      "answer": "To produce a fixed-length representation of binary data to ensure integrity"
+    },
+    {
+      "type": "mc",
+      "question": "Which of the following is NOT a property of a cryptographic hash function?",
+      "options": [
+        "The input can be any length",
+        "The output has a fixed length",
+        "The function is easily reversible",
+        "Two different inputs will always result in different outputs"
+      ],
+      "answer": "The function is easily reversible"
+    },
+    {
+      "type": "mc",
+      "question": "Which hashing algorithm, developed by Ron Rivest, produces a 128-bit hash value?",
+      "options": [
+        "SHA-256",
+        "SHA-512",
+        "MD5",
+        "HMAC"
+      ],
+      "answer": "MD5"
+    },
+    {
+      "type": "mc",
+      "question": "The Secure Hash Algorithm (SHA) was developed by which U.S. organization?",
+      "options": [
+        "National Security Agency (NSA)",
+        "Federal Bureau of Investigation (FBI)",
+        "National Institute of Standards and Technology (NIST)",
+        "Central Intelligence Agency (CIA)"
+      ],
+      "answer": "National Institute of Standards and Technology (NIST)"
+    },
+    {
+      "type": "mc",
+      "question": "What is the purpose of 'salting' a password before hashing it?",
+      "options": [
+        "To make the hash shorter and faster to compute",
+        "To encrypt the password with a secret key",
+        "To ensure two users with the same password have different hash values",
+        "To make the hash reversible"
+      ],
+      "answer": "To ensure two users with the same password have different hash values"
+    },
+    {
+      "type": "mc",
+      "question": "What does a Keyed-Hash Message Authentication Code (HMAC) add to the hashing function?",
+      "options": [
+        "A random salt to prevent rainbow table attacks",
+        "A public key to encrypt the hash",
+        "A secret key to add authentication to the integrity check",
+        "A digital certificate to verify the sender"
+      ],
+      "answer": "A secret key to add authentication to the integrity check"
+    },
+    {
+      "type": "mc",
+      "question": "A digital signature is a mathematical method used to check which two properties of a message?",
+      "options": [
+        "Confidentiality and availability",
+        "Authenticity and integrity",
+        "Speed and efficiency",
+        "Salting and hashing"
+      ],
+      "answer": "Authenticity and integrity"
+    },
+    {
+      "type": "mc",
+      "question": "Digital signatures are based on which type of cryptography?",
+      "options": [
+        "Symmetric cryptography",
+        "Asymmetric cryptography",
+        "Hashing algorithms",
+        "Steganography"
+      ],
+      "answer": "Asymmetric cryptography"
+    },
+    {
+      "type": "mc",
+      "question": "When Alice digitally signs a message, how does she create the signature?",
+      "options": [
+        "She encrypts the message with her public key",
+        "She encrypts the message's hash (message digest) with her private key",
+        "She encrypts the message's hash (message digest) with her public key",
+        "She encrypts the message with a symmetric key"
+      ],
+      "answer": "She encrypts the message's hash (message digest) with her private key"
+    },
+    {
+      "type": "mc",
+      "question": "A digital signature provides 'non-repudiation', which means:",
+      "options": [
+        "The message cannot be altered",
+        "The signature cannot be reused",
+        "The sender cannot deny having signed the document",
+        "The signature is authentic"
+      ],
+      "answer": "The sender cannot deny having signed the document"
+    },
+    {
+      "type": "mc",
+      "question": "What is the common analogy for a digital certificate?",
+      "options": [
+        "An electronic passport",
+        "A secret handshake",
+        "A public key",
+        "A sealed envelope"
+      ],
+      "answer": "An electronic passport"
+    },
+    {
+      "type": "mc",
+      "question": "What is the international standard for the structure of digital certificates?",
+      "options": [
+        "ISO 27001",
+        "MD5",
+        "X.509",
+        "SHA-256"
+      ],
+      "answer": "X.509"
+    },
+    {
+      "type": "mc",
+      "question": "What is a 'PKI' (Public Key Infrastructure)?",
+      "options": [
+        "A type of asymmetric algorithm",
+        "The policies, roles, and procedures required to manage digital certificates",
+        "A hardware device that stores private keys",
+        "A database of public keys"
+      ],
+      "answer": "The policies, roles, and procedures required to manage digital certificates"
+    },
+    {
+      "type": "mc",
+      "question": "Which component of a digital certificate identifies the entity that issued the certificate?",
+      "options": [
+        "Subject Name",
+        "Issuer Name (Certificate Authority)",
+        "Serial Number",
+        "Validity Period"
+      ],
+      "answer": "Issuer Name (Certificate Authority)"
+    },
+    {
+      "type": "mc",
+      "question": "In database integrity, what does 'data integrity' refer to?",
+      "options": [
+        "The speed of data retrieval",
+        "The amount of data stored",
+        "The accuracy, consistency, and reliability of the data",
+        "The encryption of the database files"
+      ],
+      "answer": "The accuracy, consistency, and reliability of the data"
+    },
+    {
+      "type": "mc",
+      "question": "Which database integrity rule states that all rows must have a unique identifier, called a Primary Key?",
+      "options": [
+        "Entity Integrity",
+        "Domain Integrity",
+        "Referential Integrity",
+        "User-defined Integrity"
+      ],
+      "answer": "Entity Integrity"
+    },
+    {
+      "type": "mc",
+      "question": "Which database integrity rule ensures that all data stored in a specific column follows the same format and definition?",
+      "options": [
+        "Entity Integrity",
+        "Domain Integrity",
+        "Referential Integrity",
+        "User-defined Integrity"
+      ],
+      "answer": "Domain Integrity"
+    },
+    {
+      "type": "mc",
+      "question": "Which database integrity rule ensures that table relationships remain consistent, such as by linking a foreign key to a primary key?",
+      "options": [
+        "Entity Integrity",
+        "Domain Integrity",
+        "Referential Integrity",
+        "User-defined Integrity"
+      ],
+      "answer": "Referential Integrity"
+    },
+    {
+      "type": "mc",
+      "question": "A validation rule that checks if a data value lies within a minimum and maximum value is an example of what kind of check?",
+      "options": [
+        "Size check",
+        "Format check",
+        "Consistency check",
+        "Range check"
+      ],
+      "answer": "Range check"
+    },
+    {
+      "type": "mc",
+      "question": "An extra calculation used to generate a digit for error detection, such as in an ISBN, is what kind of validation?",
+      "options": [
+        "Size check",
+        "Format check",
+        "Check digit",
+        "Range check"
+      ],
+      "answer": "Check digit"
+    }
+  ]
+}
