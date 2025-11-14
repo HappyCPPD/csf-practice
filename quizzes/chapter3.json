@@ -1,0 +1,335 @@
+{
+  "title": "Chapter 3: Cybersecurity Threats, Vulnerabilities, and Attacks",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "What is a key difference between a virus and a worm?",
+      "options": [
+        "A virus can be stopped, but a worm cannot.",
+        "A worm can run by itself, while a virus requires a host program to run.",
+        "A virus replicates independently, while a worm requires user initiation.",
+        "A virus is used for DoS attacks, while a worm is used for phishing."
+      ],
+      "answer": "A worm can run by itself, while a virus requires a host program to run."
+    },
+    {
+      "type": "mc",
+      "question": "Which type of malware is defined as malicious executable code attached to another executable file, like a legitimate program?",
+      "options": [
+        "Worm",
+        "Trojan horse",
+        "Virus",
+        "Rootkit"
+      ],
+      "answer": "Virus"
+    },
+    {
+      "type": "mc",
+      "question": "A worm is a type of malicious code that replicates by:",
+      "options": [
+        "Attaching to a host file",
+        "Requiring end-user initiation",
+        "Independently exploiting vulnerabilities in networks",
+        "Using a specific trigger date or time"
+      ],
+      "answer": "Independently exploiting vulnerabilities in networks"
+    },
+    {
+      "type": "mc",
+      "question": "What is the defining characteristic of a 'Trojan horse'?",
+      "options": [
+        "It replicates by independently exploiting vulnerabilities.",
+        "It modifies the operating system to create a backdoor.",
+        "It holds a computer system captive until a payment is made.",
+        "It carries out malicious operations under the guise of a desired operation."
+      ],
+      "answer": "It carries out malicious operations under the guise of a desired operation."
+    },
+    {
+      "type": "mc",
+      "question": "Which type of malware remains inactive until a specific trigger event, such as a date or the deletion of an account, occurs?",
+      "options": [
+        "Logic Bomb",
+        "Ransomware",
+        "Virus",
+        "Trojan horse"
+      ],
+      "answer": "Logic Bomb"
+    },
+    {
+      "type": "mc",
+      "question": "What is the primary goal of ransomware?",
+      "options": [
+        "To modify the operating system and create a backdoor.",
+        "To obtain information about a user's computer activities.",
+        "To hold a computer system captive, usually by encryption, until a payment is made.",
+        "To display annoying pop-ups to generate revenue."
+      ],
+      "answer": "To hold a computer system captive, usually by encryption, until a payment is made."
+    },
+    {
+      "type": "mc",
+      "question": "Which type of malware modifies the operating system to create a backdoor, bypassing normal authentication?",
+      "options": [
+        "Spyware",
+        "Adware",
+        "Rootkit",
+        "Scareware"
+      ],
+      "answer": "Rootkit"
+    },
+    {
+      "type": "mc",
+      "question": "What is 'Spam'?",
+      "options": [
+        "A highly targeted phishing attack.",
+        "Unsolicited email, also known as junk mail.",
+        "A program that records a user's keystrokes.",
+        "Malware that alters a computer's browser settings."
+      ],
+      "answer": "Unsolicited email, also known as junk mail."
+    },
+    {
+      "type": "mc",
+      "question": "Malware that includes activity trackers, keystroke collection, and data capture to obtain information about a user's activities is called:",
+      "options": [
+        "Spyware",
+        "Adware",
+        "Scareware",
+        "Ransomware"
+      ],
+      "answer": "Spyware"
+    },
+    {
+      "type": "mc",
+      "question": "What is the primary purpose of 'Adware'?",
+      "options": [
+        "To encrypt a user's data and demand payment.",
+        "To display annoying pop-ups, often based on tracked websites, to generate revenue.",
+        "To modify the operating system and create a backdoor.",
+        "To persuade a user to take action based on fear."
+      ],
+      "answer": "To display annoying pop-ups, often based on tracked websites, to generate revenue."
+    },
+    {
+      "type": "mc",
+      "question": "Malware that persuades a user to take an action based on fear, often using forged pop-up windows that resemble OS dialogs, is called:",
+      "options": [
+        "Adware",
+        "Scareware",
+        "Ransomware",
+        "Spyware"
+      ],
+      "answer": "Scareware"
+    },
+    {
+      "type": "mc",
+      "question": "What is the main difference between 'phishing' and 'spear phishing'?",
+      "options": [
+        "Phishing uses email, while spear phishing uses voice calls.",
+        "Phishing is a broad attack, while spear phishing is a highly targeted, customized attack.",
+        "Phishing targets executives, while spear phishing targets the help desk.",
+        "Phishing installs malware, while spear phishing steals credentials."
+      ],
+      "answer": "Phishing is a broad attack, while spear phishing is a highly targeted, customized attack."
+    },
+    {
+      "type": "mc",
+      "question": "A phishing attack that uses voice communication technology (like VoIP) is known as:",
+      "options": [
+        "SMiShing",
+        "Whaling",
+        "Vishing",
+        "Pharming"
+      ],
+      "answer": "Vishing"
+    },
+    {
+      "type": "mc",
+      "question": "An attack that impersonates a legitimate website in order to get user credentials is called:",
+      "options": [
+        "Pharming",
+        "Vishing",
+        "Whaling",
+        "Spear phishing"
+      ],
+      "answer": "Pharming"
+    },
+    {
+      "type": "mc",
+      "question": "What is 'whaling'?",
+      "options": [
+        "A broad phishing attack sent to thousands of users.",
+        "A phishing attack that targets high-profile individuals like senior executives.",
+        "A phishing attack that uses voice communication.",
+        "A phishing attack that uses SMS text messages."
+      ],
+      "answer": "A phishing attack that targets high-profile individuals like senior executives."
+    },
+    {
+      "type": "mc",
+      "question": "What is 'SEO poisoning'?",
+      "options": [
+        "A type of malware that infects search engine executable files.",
+        "Using SEO techniques to make a malicious website appear higher in search results.",
+        "An attack that sends fraudulent emails disguised as being from a search engine.",
+        "Malware that alters a browser's default search engine."
+      ],
+      "answer": "Using SEO techniques to make a malicious website appear higher in search results."
+    },
+    {
+      "type": "mc",
+      "question": "A non-technical attack that attempts to manipulate individuals into performing actions or divulging confidential information is called:",
+      "options": [
+        "Social Engineering",
+        "A Zero-Day Attack",
+        "Spoofing",
+        "A Buffer Overflow"
+      ],
+      "answer": "Social Engineering"
+    },
+    {
+      "type": "mc",
+      "question": "An attacker calls an individual and lies to them (e.g., pretending to be from the help desk) to gain access to privileged data. This is an example of:",
+      "options": [
+        "Pretexting",
+        "Dumpster diving",
+        "Shoulder surfing",
+        "Pharming"
+      ],
+      "answer": "Pretexting"
+    },
+    {
+      "type": "mc",
+      "question": "The act of going through a target's trash to find sensitive information is known as:",
+      "options": [
+        "Shoulder surfing",
+        "Dumpster diving",
+        "Pretexting",
+        "Tailgating"
+      ],
+      "answer": "Dumpster diving"
+    },
+    {
+      "type": "mc",
+      "question": "An attacker following an authorized person to gain entry into a secure location is an example of:",
+      "options": [
+        "Shoulder surfing",
+        "Impersonation",
+        "Tailgating (or Piggybacking)",
+        "Pretexting"
+      ],
+      "answer": "Tailgating (or Piggybacking)"
+    },
+    {
+      "type": "mc",
+      "question": "What is the primary result of a successful Denial-of-Service (DoS) attack?",
+      "options": [
+        "An interruption of network services to users, devices, or applications.",
+        "The theft of confidential data, like usernames and passwords.",
+        "The modification of data on a web server.",
+        "The installation of a backdoor on a user's computer."
+      ],
+      "answer": "An interruption of network services to users, devices, or applications."
+    },
+    {
+      "type": "mc",
+      "question": "An impersonation attack that takes advantage of a trusted relationship between two systems is known as:",
+      "options": [
+        "Sniffing",
+        "Spoofing",
+        "A DoS attack",
+        "A buffer overflow"
+      ],
+      "answer": "Spoofing"
+    },
+    {
+      "type": "mc",
+      "question": "An attack where the criminal intercepts and can manipulate communications between two hosts without their knowledge is:",
+      "options": [
+        "Man-in-the-middle (MitM)",
+        "Spoofing",
+        "Denial-of-Service (DoS)",
+        "Keyboard logging"
+      ],
+      "answer": "Man-in-the-middle (MitM)"
+    },
+    {
+      "type": "mc",
+      "question": "An attack that exploits a software vulnerability that is unknown or undisclosed by the software vendor is called a:",
+      "options": [
+        "Man-in-the-Middle attack",
+        "Logic bomb",
+        "Spoofing attack",
+        "Zero-day attack"
+      ],
+      "answer": "Zero-day attack"
+    },
+    {
+      "type": "mc",
+      "question": "A phishing attack that uses Short Message Service (SMS) is known as:",
+      "options": [
+        "Vishing",
+        "Whaling",
+        "Pharming",
+        "SMiShing"
+      ],
+      "answer": "SMiShing"
+    },
+    {
+      "type": "mc",
+      "question": "What is 'Bluejacking'?",
+      "options": [
+        "An attacker copying a victim's information (like emails) via Bluetooth.",
+        "An attacker sending unauthorized messages to another Bluetooth device.",
+        "An attack that disrupts a wireless signal (RF jamming).",
+        "An attack that installs a rogue access point."
+      ],
+      "answer": "An attacker sending unauthorized messages to another Bluetooth device."
+    },
+    {
+      "type": "mc",
+      "question": "What is 'Bluesnarfing'?",
+      "options": [
+        "An attacker copying a victim's information (like emails) via Bluetooth.",
+        "An attacker sending unauthorized messages to another Bluetooth device.",
+        "An attack that disrupts a wireless signal (RF jamming).",
+        "A highly targeted phishing attack."
+      ],
+      "answer": "An attacker copying a victim's information (like emails) via Bluetooth."
+    },
+    {
+      "type": "mc",
+      "question": "An attack where a criminal injects malicious client-side scripts into web pages viewed by users is known as:",
+      "options": [
+        "Cross-site scripting (XSS)",
+        "SQL injection",
+        "Buffer overflow",
+        "Remote code execution"
+      ],
+      "answer": "Cross-site scripting (XSS)"
+    },
+    {
+      "type": "mc",
+      "question": "An attack that exploits weaknesses in a program by not validating database queries properly is a(n):",
+      "options": [
+        "Cross-site scripting (XSS) attack",
+        "Buffer overflow attack",
+        "SQL injection attack",
+        "Man-in-the-middle (MitM) attack"
+      ],
+      "answer": "SQL injection attack"
+    },
+    {
+      "type": "mc",
+      "question": "An attack that occurs when data goes beyond the limits of a memory area (buffer), potentially leading to a system crash or privilege escalation, is:",
+      "options": [
+        "A zero-day attack",
+        "A buffer overflow",
+        "Remote code execution",
+        "Cross-site scripting (XSS)"
+      ],
+      "answer": "A buffer overflow"
+    }
+  ]
+}

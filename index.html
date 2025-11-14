@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div id="loading-screen" class="screen active">
+            <h1>Loading Quizzes...</h1>
+        </div>
+
+        <div id="setup-screen" class="screen">
+            <h1>Quiz Setup</h1>
+            
+            <div class="setup-control">
+                <h2>1. Select Chapters</h2>
+                <div id="chapter-selection">
+                </div>
+            </div>
+            
+            <div class="setup-control">
+                <h2>2. Select Number of Questions</h2>
+                <div id="question-count-info">
+                    Available questions: <strong>0</strong>
+                </div>
+                <input type="number" id="question-count-input" min="1" value="5">
+            </div>
+
+            <button id="start-quiz-btn" class="btn">Start Quiz</button>
+            <div id="setup-error" class="error-message"></div>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div id="quiz-header">
+                <span id="question-counter"></span>
+                <span id="quiz-chapter"></span>
+            </div>
+            <h2 id="question-text"></h2>
+            <div id="answer-options">
+            </div>
+            <div id="feedback-message"></div>
+            <button id="submit-answer-btn" class="btn">Submit</button>
+        </div>
+
+        <div id="results-screen" class="screen">
+            <h1>Quiz Complete!</h1>
+            <h2>Your Score: <span id="final-score"></span></h2>
+            <p>You got <strong id="score-correct"></strong> out of <strong id="score-total"></strong> correct.</p>
+            
+            <div id="wrong-answers-review">
+                <h3>Review Your Mistakes</h3>
+                <div id="wrong-answers-list"></div>
+            </div>
+            
+            <button id="restart-quiz-btn" class="btn">Try Again</button>
+        </div>
+
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>

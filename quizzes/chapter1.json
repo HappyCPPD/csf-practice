@@ -1,0 +1,280 @@
+{
+  "title": "Chapter 1",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "Businesses that collect and harness the power of data have what responsibility?",
+      "options": [
+        "To sell the data to the highest bidder",
+        "To protect this data from misuse and unauthorized access",
+        "To use the data for marketing purposes only",
+        "To make the data publicly available"
+      ],
+      "answer": "To protect this data from misuse and unauthorized access"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of hacker breaks into networks or computer systems to discover weaknesses in order to improve security?",
+      "options": [
+        "White hat attacker",
+        "Gray hat attacker",
+        "Black hat attacker",
+        "Script kiddie"
+      ],
+      "answer": "White hat attacker"
+    },
+    {
+      "type": "mc",
+      "question": "An unethical criminal who violates computer and network security for personal gain or malicious reasons is a:",
+      "options": [
+        "White hat attacker",
+        "Gray hat attacker",
+        "Black hat attacker",
+        "Vulnerability broker"
+      ],
+      "answer": "Black hat attacker"
+    },
+    {
+      "type": "mc",
+      "question": "What is a 'Script Kiddie'?",
+      "options": [
+        "A teenager or hobbyist with little or no skill, using existing tools to launch attacks",
+        "A highly-skilled cyber criminal working for a large organization",
+        "A state-sponsored hacker who gathers intelligence",
+        "A grey hat hacker who reports exploits for rewards"
+      ],
+      "answer": "A teenager or hobbyist with little or no skill, using existing tools to launch attacks"
+    },
+    {
+      "type": "mc",
+      "question": "Grey hat hackers who rally and protest against political or social ideas, often by leaking information or using DDoS attacks, are called:",
+      "options": [
+        "Cyber Criminals",
+        "Vulnerability Brokers",
+        "Hacktivists",
+        "State Sponsored Hackers"
+      ],
+      "answer": "Hacktivists"
+    },
+    {
+      "type": "mc",
+      "question": "What is the purpose of the Nation Common Vulnerabilities and Exposures (CVE) database?",
+      "options": [
+        "To provide a publicly available database of all known vulnerabilities",
+        "To display a real-time visualization of attacks",
+        "To share intelligence between the FBI and the private sector",
+        "To provide a framework for implementing cybersecurity measures"
+      ],
+      "answer": "To provide a publicly available database of all known vulnerabilities"
+    },
+    {
+      "type": "mc",
+      "question": "Which partnership between the FBI and the private sector is dedicated to sharing information and intelligence to prevent hostile cyberattacks?",
+      "options": [
+        "The Honeynet project",
+        "InfraGard",
+        "ISACA",
+        "ISO 27000"
+      ],
+      "answer": "InfraGard"
+    },
+    {
+      "type": "mc",
+      "question": "Which set of standards provides a framework for implementing cybersecurity measures within an organization?",
+      "options": [
+        "CVE National Database",
+        "The Honeynet project",
+        "ISO 27000 standards",
+        "InfraGard"
+      ],
+      "answer": "ISO 27000 standards"
+    },
+    {
+      "type": "mc",
+      "question": "What is a 'cyber vulnerability'?",
+      "options": [
+        "The possibility that a harmful event will occur",
+        "A weakness that makes a target susceptible to an attack",
+        "A tool used to capture data streams over a network",
+        "An attack that interferes with established network communication"
+      ],
+      "answer": "A weakness that makes a target susceptible to an attack"
+    },
+    {
+      "type": "mc",
+      "question": "A tool that works by monitoring and recording all information coming across a network is called a:",
+      "options": [
+        "Packet sniffer",
+        "Packet forger",
+        "Rogue access point",
+        "Vulnerability broker"
+      ],
+      "answer": "Packet sniffer"
+    },
+    {
+      "type": "mc",
+      "question": "Which attack interferes with an established network communication by constructing packets to appear as if they are part of that communication?",
+      "options": [
+        "Packet sniffing",
+        "Packet forgery (or packet injection)",
+        "SCADA attack",
+        "Social engineering"
+      ],
+      "answer": "Packet forgery (or packet injection)"
+    },
+    {
+      "type": "mc",
+      "question": "At which level is it an employee's responsibility to protect the organization’s reputation, data, and customers?",
+      "options": [
+        "Personal level",
+        "Corporate level",
+        "State level",
+        "Federal level"
+      ],
+      "answer": "Corporate level"
+    },
+    {
+      "type": "mc",
+      "question": "Why do internal threats have the potential to cause greater damage than external threats?",
+      "options": [
+        "Internal users have direct access to the building and its infrastructure devices",
+        "Internal threats always come from amateurs or script kiddies",
+        "Internal threats can only be stopped by the NSA",
+        "Internal users do not have knowledge of the corporate network"
+      ],
+      "answer": "Internal users have direct access to the building and its infrastructure devices"
+    },
+    {
+      "type": "mc",
+      "question": "What is the growing trend of allowing employees to use their personal mobile devices on the corporate network called?",
+      "options": [
+        "Internet of Things (IoT)",
+        "Bring Your Own Device (BYOD)",
+        "Advanced Persistent Threat (APT)",
+        "Federated Identity Management"
+      ],
+      "answer": "Bring Your Own Device (BYOD)"
+    },
+    {
+      "type": "mc",
+      "question": "Which of the following is NOT one of the three dimensions of Big Data?",
+      "options": [
+        "The volume (amount of data)",
+        "The velocity (speed of data)",
+        "The variety (range of data types)",
+        "The vulnerability (risk of data)"
+      ],
+      "answer": "The vulnerability (risk of data)"
+    },
+    {
+      "type": "mc",
+      "question": "A continuous computer hack that occurs under the radar against a specific object for business or political motives is known as:",
+      "options": [
+        "A Telephone Denial of Service (TDoS)",
+        "A script kiddie attack",
+        "An Advanced Persistent Threat (APT)",
+        "A Federated Identity hack"
+      ],
+      "answer": "An Advanced Persistent Threat (APT)"
+    },
+    {
+      "type": "mc",
+      "question": "What is a telephone denial of service (TDoS) attack?",
+      "options": [
+        "An attack that uses a high volume of phone calls to tie up a target network",
+        "An attack that steals confidential data from a phone",
+        "An attack that uses phone calls to trick a user into giving up passwords",
+        "An attack that monitors phone calls to gather intelligence"
+      ],
+      "answer": "An attack that uses a high volume of phone calls to tie up a target network"
+    },
+    {
+      "type": "mc",
+      "question": "In the NIST Workforce Framework, which category includes providing the support, administration, and maintenance for IT systems?",
+      "options": [
+        "Operate and Maintain",
+        "Protect and Defend",
+        "Investigate",
+        "Securely Provision"
+      ],
+      "answer": "Operate and Maintain"
+    },
+    {
+      "type": "mc",
+      "question": "In the NIST Workforce Framework, which category includes the 'identification, analysis, and mitigation of threats to internal systems and networks'?",
+      "options": [
+        "Operate and Maintain",
+        "Protect and Defend",
+        "Investigate",
+        "Analyze"
+      ],
+      "answer": "Protect and Defend"
+    },
+    {
+      "type": "mc",
+      "question": "In the NIST Workforce Framework, which category includes 'conceptualizing, designing, and building secure IT systems'?",
+      "options": [
+        "Protect and Defend",
+        "Oversight and Development",
+        "Analyze",
+        "Securely Provision"
+      ],
+      "answer": "Securely Provision"
+    },
+    {
+      "type": "mc",
+      "question": "Which entry-level certification certifies the competency of IT administrators in information assurance?",
+      "options": [
+        "CompTIA Security+",
+        "Certified Ethical Hacker (CEH)",
+        "CISSP",
+        "CCNA Security"
+      ],
+      "answer": "CompTIA Security+"
+    },
+    {
+      "type": "mc",
+      "question": "Which EC-Council certification is intermediate-level and asserts that a specialist possesses skills for various hacking practices?",
+      "options": [
+        "CompTIA Security+",
+        "Certified Ethical Hacker (CEH)",
+        "CISSP",
+        "Certified Information Security Manager (CISM)"
+      ],
+      "answer": "Certified Ethical Hacker (CEH)"
+    },
+    {
+      "type": "mc",
+      "question": "Which high-level, vendor-neutral certification is aimed at specialists with significant technical and managerial experience and is approved by the U.S. DoD?",
+      "options": [
+        "CompTIA Security+",
+        "Certified Ethical Hacker (CEH)",
+        "Certified Information Systems Security Professional (CISSP)",
+        "CCNA Security"
+      ],
+      "answer": "Certified Information Systems Security Professional (CISSP)"
+    },
+    {
+      "type": "mc",
+      "question": "Which ISACA certification is for specialists responsible for managing, developing, and overseeing information security systems at the enterprise level?",
+      "options": [
+        "Certified Information Security Manager (CISM)",
+        "Certified Ethical Hacker (CEH)",
+        "CISSP",
+        "CCNA Security"
+      ],
+      "answer": "Certified Information Security Manager (CISM)"
+    },
+    {
+      "type": "mc",
+      "question": "Which Cisco certification validates that a specialist has the knowledge and skills required to secure Cisco networks?",
+      "options": [
+        "CCNP Security",
+        "CCNA Security",
+        "CISSP",
+        "CCIE Security"
+      ],
+      "answer": "CCNA Security"
+    }
+  ]
+}

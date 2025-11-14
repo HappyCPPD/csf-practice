@@ -1,0 +1,335 @@
+{
+  "title": "Chapter 4: The Art of Protecting Secrets",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "What is the science of making and breaking secret codes called?",
+      "options": [
+        "Cryptography",
+        "Cryptology",
+        "Steganography",
+        "Obfuscation"
+      ],
+      "answer": "Cryptology"
+    },
+    {
+      "type": "mc",
+      "question": "What is a 'cipher'?",
+      "options": [
+        "A secret message",
+        "A series of well-defined steps (an algorithm) used to encrypt and decrypt",
+        "A shared secret password",
+        "A type of physical lock"
+      ],
+      "answer": "A series of well-defined steps (an algorithm) used to encrypt and decrypt"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of encryption algorithm uses the *same* pre-shared key to encrypt and decrypt data?",
+      "options": [
+        "Asymmetric",
+        "Public-Key",
+        "Symmetric",
+        "ElGamal"
+      ],
+      "answer": "Symmetric"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of encryption algorithm uses a pair of keys, one public and one private?",
+      "options": [
+        "Asymmetric",
+        "Symmetric",
+        "Secret-Key",
+        "IDEA"
+      ],
+      "answer": "Asymmetric"
+    },
+    {
+      "type": "mc",
+      "question": "Which symmetric encryption standard has a fixed block size of 128-bits and key sizes of 128, 192, or 256 bits?",
+      "options": [
+        "3DES",
+        "AES",
+        "IDEA",
+        "RSA"
+      ],
+      "answer": "AES"
+    },
+    {
+      "type": "mc",
+      "question": "Which symmetric algorithm encrypts data three times and uses a different key for at least one pass?",
+      "options": [
+        "3DES",
+        "AES",
+        "IDEA",
+        "DES"
+      ],
+      "answer": "3DES"
+    },
+    {
+      "type": "mc",
+      "question": "Which asymmetric algorithm, used by browsers, uses the product of two very large prime numbers?",
+      "options": [
+        "RSA",
+        "Diffie-Hellman",
+        "ElGamal",
+        "AES"
+      ],
+      "answer": "RSA"
+    },
+    {
+      "type": "mc",
+      "question": "Which asymmetric algorithm provides an electronic exchange method to share a secret key and is used by SSL, TLS, and SSH?",
+      "options": [
+        "RSA",
+        "Diffie-Hellman",
+        "ElGamal",
+        "ECC"
+      ],
+      "answer": "Diffie-Hellman"
+    },
+    {
+      "type": "mc",
+      "question": "Which asymmetric algorithm, used by the U.S. government for digital signatures, is free to use?",
+      "options": [
+        "RSA",
+        "Diffie-Hellman",
+        "ElGamal",
+        "ECC"
+      ],
+      "answer": "ElGamal"
+    },
+    {
+      "type": "mc",
+      "question": "Which algorithm does the NSA use for digital signature generation and key exchange, based on elliptic curves?",
+      "options": [
+        "RSA",
+        "Diffie-Hellman",
+        "ElGamal",
+        "Elliptic Curve Cryptography (ECC)"
+      ],
+      "answer": "Elliptic Curve Cryptography (ECC)"
+    },
+    {
+      "type": "mc",
+      "question": "What is the main advantage of symmetric encryption over asymmetric encryption?",
+      "options": [
+        "It is more efficient and can handle more data",
+        "Key management is much easier",
+        "It is more secure for key exchanges",
+        "It does not require a pre-shared key"
+      ],
+      "answer": "It is more efficient and can handle more data"
+    },
+    {
+      "type": "mc",
+      "question": "What is the main advantage of asymmetric encryption over symmetric encryption?",
+      "options": [
+        "It is faster and can handle more data",
+        "It is more secure for tasks like electronic key exchange",
+        "It is less resource-intensive",
+        "It uses a single secret key"
+      ],
+      "answer": "It is more secure for tasks like electronic key exchange"
+    },
+    {
+      "type": "mc",
+      "question": "Pretty Good Privacy (PGP) is a computer program that provides cryptographic privacy and authentication for what?",
+      "options": [
+        "Web browsing",
+        "Remote access connections",
+        "Virtual Private Networks (VPNs)",
+        "Email communications"
+      ],
+      "answer": "Email communications"
+    },
+    {
+      "type": "mc",
+      "question": "What is a growing security concern for 'data in use'?",
+      "options": [
+        "It is always encrypted three times",
+        "It is held in system memory and no longer has protection",
+        "It cannot be accessed by the user",
+        "It can only be protected by asymmetric algorithms"
+      ],
+      "answer": "It is held in system memory and no longer has protection"
+    },
+    {
+      "type": "mc",
+      "question": "Access controls that are 'actual barriers deployed to prevent direct contact with systems' are called:",
+      "options": [
+        "Physical Access Controls",
+        "Logical Access Controls",
+        "Administrative Access Controls",
+        "Mandatory Access Controls"
+      ],
+      "answer": "Physical Access Controls"
+    },
+    {
+      "type": "mc",
+      "question": "Access controls that are 'hardware and software solutions used to manage access,' like passwords and firewalls, are called:",
+      "options": [
+        "Physical Access Controls",
+        "Logical Access Controls",
+        "Administrative Access Controls",
+        "Discretionary Access Controls"
+      ],
+      "answer": "Logical Access Controls"
+    },
+    {
+      "type": "mc",
+      "question": "Access controls that are 'policies and procedures defined by organizations' are called:",
+      "options": [
+        "Physical Access Controls",
+        "Logical Access Controls",
+        "Administrative Access Controls",
+        "Role-Based Access Controls"
+      ],
+      "answer": "Administrative Access Controls"
+    },
+    {
+      "type": "mc",
+      "question": "Which access control strategy restricts actions based on the user's job function within an organization?",
+      "options": [
+        "Mandatory access control (MAC)",
+        "Discretionary access control (DAC)",
+        "Role-based access control (RBAC)",
+        "Rule-based access control"
+      ],
+      "answer": "Role-based access control (RBAC)"
+    },
+    {
+      "type": "mc",
+      "question": "Which access control strategy grants or restricts object access as determined by the object’s owner?",
+      "options": [
+        "Mandatory access control (MAC)",
+        "Discretionary access control (DAC)",
+        "Role-based access control (RBAC)",
+        "Rule-based access control"
+      ],
+      "answer": "Discretionary access control (DAC)"
+    },
+    {
+      "type": "mc",
+      "question": "Which access control strategy uses Access Control Lists (ACLs) to determine whether to grant access?",
+      "options": [
+        "Mandatory access control (MAC)",
+        "Discretionary access control (DAC)",
+        "Role-based access control (RBAC)",
+        "Rule-based access control"
+      ],
+      "answer": "Rule-based access control"
+    },
+    {
+      "type": "mc",
+      "question": "A smart card or a security key fob is an example of which authentication method?",
+      "options": [
+        "Something You Know",
+        "Something You Have",
+        "Who You Are",
+        "Something You Do"
+      ],
+      "answer": "Something You Have"
+    },
+    {
+      "type": "mc",
+      "question": "A fingerprint, retina scan, or voice recognition is an example of which authentication method?",
+      "options": [
+        "Something You Know",
+        "Something You Have",
+        "Who You Are (Biometrics)",
+        "Something You Do"
+      ],
+      "answer": "Who You Are (Biometrics)"
+    },
+    {
+      "type": "mc",
+      "question": "Multi-factor authentication is defined as using:",
+      "options": [
+        "A very long and complex password",
+        "At least two methods of verification (e.g., password and key fob)",
+        "Both a smart card and a key fob",
+        "A password that changes every 30 seconds"
+      ],
+      "answer": "At least two methods of verification (e.g., password and key fob)"
+    },
+    {
+      "type": "mc",
+      "question": "Which component of access control traces an action back to a person or process, often using log files?",
+      "options": [
+        "Identification",
+        "Authentication",
+        "Authorization",
+        "Accountability"
+      ],
+      "answer": "Accountability"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of security control is designed to *stop* an unwanted activity from happening in the first place?",
+      "options": [
+        "Preventative Control",
+        "Deterrent Control",
+        "Detective Control",
+        "Corrective Control"
+      ],
+      "answer": "Preventative Control"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of security control is designed to *discourage* someone from doing the wrong thing?",
+      "options": [
+        "Preventative Control",
+        "Deterrent Control",
+        "Detective Control",
+        "Compensative Control"
+      ],
+      "answer": "Deterrent Control"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of security control is designed to *identify* different types of unauthorized activity (e.g., an IDS)?",
+      "options": [
+        "Preventative Control",
+        "Deterrent Control",
+        "Detective Control",
+        "Recovery Control"
+      ],
+      "answer": "Detective Control"
+    },
+    {
+      "type": "mc",
+      "question": "Which technology secures data by replacing sensitive information with a non-sensitive, but realistic-looking, version?",
+      "options": [
+        "Data Masking",
+        "Steganography",
+        "Cryptography",
+        "Data Obfuscation"
+      ],
+      "answer": "Data Masking"
+    },
+    {
+      "type": "mc",
+      "question": "What is 'Steganography'?",
+      "options": [
+        "The art of making a message confusing or ambiguous",
+        "A technology that replaces sensitive data with non-sensitive data",
+        "The art of concealing data (a message) within another file, such as an image or audio file",
+        "The science of making and breaking secret codes"
+      ],
+      "answer": "The art of concealing data (a message) within another file, such as an image or audio file"
+    },
+    {
+      "type": "mc",
+      "question": "What is the main advantage of steganography over cryptography?",
+      "options": [
+        "It is impossible to break",
+        "It uses a stronger encryption algorithm",
+        "The secret message does not attract any special attention",
+        "It can hide larger amounts of data"
+      ],
+      "answer": "The secret message does not attract any special attention"
+    }
+  ]
+}

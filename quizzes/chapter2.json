@@ -1,0 +1,357 @@
+{
+  "title": "Chapter 2: The Cybersecurity Cube",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "What are the three foundational principles (goals) identified in the first dimension of the Cybersecurity Cube?",
+      "options": [
+        "Technology, Policies, People",
+        "Storage, Transmission, Processing",
+        "Confidentiality, Integrity, Availability",
+        "Authentication, Authorization, Accounting"
+      ],
+      "answer": "Confidentiality, Integrity, Availability"
+    },
+    {
+      "type": "mc",
+      "question": "What are the three states of data identified in the second dimension of the Cybersecurity Cube?",
+      "options": [
+        "Confidentiality, Integrity, Availability",
+        "Data at rest, Data in transit, Data in process",
+        "Technology, Policies, People",
+        "DAS, NAS, SAN"
+      ],
+      "answer": "Data at rest, Data in transit, Data in process"
+    },
+    {
+      "type": "mc",
+      "question": "The 'safeguards' dimension of the Cybersecurity Cube is comprised of which three categories?",
+      "options": [
+        "Firewalls, Antivirus, Passwords",
+        "Confidentiality, Integrity, Availability",
+        "Technologies, Policies and Practices, People",
+        "DAS, NAS, SAN"
+      ],
+      "answer": "Technologies, Policies and Practices, People"
+    },
+    {
+      "type": "mc",
+      "question": "Which security principle prevents the disclosure of information to unauthorized people, resources, and processes?",
+      "options": [
+        "Integrity",
+        "Availability",
+        "Accounting",
+        "Confidentiality"
+      ],
+      "answer": "Confidentiality"
+    },
+    {
+      "type": "mc",
+      "question": "Data encryption, authentication, and access control are methods used to ensure:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Accounting"
+      ],
+      "answer": "Confidentiality"
+    },
+    {
+      "type": "mc",
+      "question": "Which of the 'AAA' security services verifies the identity of a user to prevent unauthorized access?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Accounting",
+        "Availability"
+      ],
+      "answer": "Authentication"
+    },
+    {
+      "type": "mc",
+      "question": "Which 'AAA' service determines which resources a user can access *after* they have been identified?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Accounting",
+        "Access Control"
+      ],
+      "answer": "Authorization"
+    },
+    {
+      "type": "mc",
+      "question": "Which 'AAA' service keeps track of what users do, what they access, and any changes they make?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Accounting",
+        "Auditing"
+      ],
+      "answer": "Accounting"
+    },
+    {
+      "type": "mc",
+      "question": "According to the slides, what is the definition of 'Privacy'?",
+      "options": [
+        "The non-public status of data",
+        "An ethical duty to protect data",
+        "The appropriate use of data",
+        "Preventing disclosure to unauthorized people"
+      ],
+      "answer": "The appropriate use of data"
+    },
+    {
+      "type": "mc",
+      "question": "The principle of 'Integrity' refers to the ____ of data during its entire life cycle.",
+      "options": [
+        "accessibility and uptime",
+        "privacy and non-disclosure",
+        "accuracy, consistency, and trustworthiness",
+        "encryption and protection"
+      ],
+      "answer": "accuracy, consistency, and trustworthiness"
+    },
+    {
+      "type": "mc",
+      "question": "Hashing, data validation checks, and access controls are methods used to ensure:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Privacy"
+      ],
+      "answer": "Integrity"
+    },
+    {
+      "type": "mc",
+      "question": "A hash function, used for an integrity check, is described as a way to:",
+      "options": [
+        "Encrypt data to make it secret",
+        "Take a 'snapshot' of data at an instant in time",
+        "Restore data from a backup",
+        "Verify a user's identity"
+      ],
+      "answer": "Take a 'snapshot' of data at an instant in time"
+    },
+    {
+      "type": "mc",
+      "question": "Which principle describes the need to maintain access to information systems and services at all times?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Accounting"
+      ],
+      "answer": "Availability"
+    },
+    {
+      "type": "mc",
+      "question": "System redundancy, system backups, and disaster recovery plans are all methods used to ensure:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authentication"
+      ],
+      "answer": "Availability"
+    },
+    {
+      "type": "mc",
+      "question": "Which of the following is *not* listed as a design principle for high availability systems?",
+      "options": [
+        "Eliminate single points of failure",
+        "Provide for reliable crossover",
+        "Detect failures as they occur",
+        "Use the fastest possible hardware"
+      ],
+      "answer": "Use the fastest possible hardware"
+    },
+    {
+      "type": "mc",
+      "question": "Data at rest refers to data that is:",
+      "options": [
+        "Currently being modified or computed",
+        "Being sent from one device to another",
+        "Retained on a storage device when not in use",
+        "Being collected from sensors"
+      ],
+      "answer": "Retained on a storage device when not in use"
+    },
+    {
+      "type": "mc",
+      "question": "A USB flash drive or an internal hard drive is an example of what type of storage?",
+      "options": [
+        "Direct-attached storage (DAS)",
+        "Network attached storage (NAS)",
+        "Storage area network (SAN)",
+        "Redundant array of independent disks (RAID)"
+      ],
+      "answer": "Direct-attached storage (DAS)"
+    },
+    {
+      "type": "mc",
+      "question": "Which storage technology uses multiple hard drives in an array to provide performance and fault tolerance?",
+      "options": [
+        "Direct-attached storage (DAS)",
+        "Network attached storage (NAS)",
+        "Storage area network (SAN)",
+        "Redundant array of independent disks (RAID)"
+      ],
+      "answer": "Redundant array of independent disks (RAID)"
+    },
+    {
+      "type": "mc",
+      "question": "A storage device connected to a network that allows centralized storage and retrieval by authorized users is a:",
+      "options": [
+        "Direct-attached storage (DAS)",
+        "Network attached storage (NAS)",
+        "Storage area network (SAN)",
+        "Redundant array of independent disks (RAID)"
+      ],
+      "answer": "Network attached storage (NAS)"
+    },
+    {
+      "type": "mc",
+      "question": "A network-based storage system that connects to the network using high-speed interfaces is a:",
+      "options": [
+        "Direct-attached storage (DAS)",
+        "Network attached storage (NAS)",
+        "Storage area network (SAN)",
+        "Redundant array of independent disks (RAID)"
+      ],
+      "answer": "Storage area network (SAN)"
+    },
+    {
+      "type": "mc",
+      "question": "Using removable media to physically move data from one computer to another is known as:",
+      "options": [
+        "Sneaker net",
+        "Wired network",
+        "Wireless network",
+        "Storage area network"
+      ],
+      "answer": "Sneaker net"
+    },
+    {
+      "type": "mc",
+      "question": "According to the slides, what are the two greatest challenges in protecting data in transit?",
+      "options": [
+        "Speed and cost",
+        "Protecting confidentiality and integrity",
+        "Storage capacity and processing power",
+        "User error and hardware failure"
+      ],
+      "answer": "Protecting confidentiality and integrity"
+    },
+    {
+      "type": "mc",
+      "question": "Data in process refers to data that is:",
+      "options": [
+        "Stored on a network drive",
+        "Being sent over a wireless network",
+        "Retained on a USB drive",
+        "Undergoing initial input, modification, or computation"
+      ],
+      "answer": "Undergoing initial input, modification, or computation"
+    },
+    {
+      "type": "mc",
+      "question": "A hardware appliance installed on a network to filter traffic, like a firewall or an IPS, is an example of what kind of safeguard?",
+      "options": [
+        "Software-based safeguard",
+        "Hardware-based safeguard",
+        "Cloud-based safeguard",
+        "Policy-based safeguard"
+      ],
+      "answer": "Hardware-based safeguard"
+    },
+    {
+      "type": "mc",
+      "question": "What technology requires a set of checks, such as up-to-date antivirus, *before* allowing a device to connect to a network?",
+      "options": [
+        "Virtual Private Network (VPN)",
+        "Network access control (NAC)",
+        "Software as a Service (SaaS)",
+        "Intrusion Detection System (IDS)"
+      ],
+      "answer": "Network access control (NAC)"
+    },
+    {
+      "type": "mc",
+      "question": "Which cloud-based service allows users to gain access to application software and databases managed by a cloud provider?",
+      "options": [
+        "Software as a Service (SaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Network access control (NAC)",
+        "Virtual Private Network (VPN)"
+      ],
+      "answer": "Software as a Service (SaaS)"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of document is a set of security objectives that includes rules of behavior for users and specifies system requirements?",
+      "options": [
+        "Security Policy",
+        "Standard",
+        "Guideline",
+        "Procedure"
+      ],
+      "answer": "Security Policy"
+    },
+    {
+      "type": "mc",
+      "question": "Which type of document provides step-by-step instructions, often with graphics, on how to implement a specific task?",
+      "options": [
+        "Security Policy",
+        "Standard",
+        "Guideline",
+        "Procedure"
+      ],
+      "answer": "Procedure"
+    },
+    {
+      "type": "mc",
+      "question": "A list of suggestions on how to do things more efficiently, which is flexible and not mandatory, is a:",
+      "options": [
+        "Security Policy",
+        "Standard",
+        "Guideline",
+        "Procedure"
+      ],
+      "answer": "Guideline"
+    },
+    {
+      "type": "mc",
+      "question": "What is the purpose of the ISO/IEC 27000 series of standards?",
+      "options": [
+        "To define the three states of data",
+        "To provide a comprehensive framework for guiding information security management",
+        "To list all known vulnerabilities",
+        "To define the CIA triad"
+      ],
+      "answer": "To provide a comprehensive framework for guiding information security management"
+    },
+    {
+      "type": "mc",
+      "question": "In the ISO framework, which standard provides the high-level 'control objectives' (the 'what')?",
+      "options": [
+        "ISO 27000",
+        "ISO 27001",
+        "ISO 27002",
+        "ISO 9001"
+      ],
+      "answer": "ISO 27001"
+    },
+    {
+      "type": "mc",
+      "question": "In the ISO framework, which standard provides the 'technical direction' (the 'how') for implementing controls?",
+      "options": [
+        "ISO 27000",
+        "ISO 27001",
+        "ISO 27002",
+        "ISO 9001"
+      ],
+      "answer": "ISO 27002"
+    }
+  ]
+}
